@@ -97,7 +97,8 @@ app.get('/types', async (req, res) => {
    }
  });
  
-// Inicia el servidor
+//* Inicia el servidor
+
 app.listen(PORT, () => {
    console.log(`Server running on http://localhost:${PORT}`);
  });
